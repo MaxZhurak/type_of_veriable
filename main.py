@@ -1,6 +1,1 @@
-number_1 = int(input("Number 1->"))
-number_2 = int(input("Number 2->"))
-number_3 = int(input("Number 3->"))
-number_4 = int(input("Number 4->"))
-print(number_3*number_4)
-print(f'Type is (typer(number_1))')
+print("To be\nor not\nto be")
