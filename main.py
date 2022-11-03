@@ -1,5 +1,0 @@
-number_1 = int(input("Number 1->"))
-number_2 = int(input("Number 2 ->"))
-number_3 = int(input("Number 3 ->"))
-print(number_1-number_2-number_3)
-print(f'Type is (typer(number_1))')
