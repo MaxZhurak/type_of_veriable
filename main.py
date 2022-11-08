@@ -1,6 +1,7 @@
 x=int(input("x->"))
+y=int(input("y->"))
 
-if x%7 == 0:
- print(f'{x} Number is multiple 7')
-elif:
- print(f'{x} Number is not multiple 7')
+if x>y == 0:
+print(f'{x} x<y')
+elif: x<y == 0
+print(f'{x} x>y')
