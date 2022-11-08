@@ -1,1 +1,6 @@
-print("Life is what happens\n\twhen\n\t\tyou’re busy making other plans\n\t\t\t\t\t\t\tJohn Lennon")
+x=int(input("x->"))
+
+if x%7 == 0:
+ print(f'{x} Number is multiple 7')
+elif:
+ print(f'{x} Number is not multiple 7')
