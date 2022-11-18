@@ -1,15 +1,13 @@
 x=float(input("x->"))
-y=float(input("y->"))
-z=float(input("z->"))
-print('#>-----------<Menu>--------------------#')
-print(f'|+: Show   + for {x} and {y} and {z} |')
-print(f'|*: Show  * for {x} and {y}  and {z} |')
-print(f'|/: Show avg for {x} and {y}  and {z} |')
-print('#>-----------<Menu>--------------------#')
+print('#>----------------<Menu>------------------#')
+print(f'|mile: Show mile for {x} and {0.6}       |')
+print(f'|inches: Show inches for {x} and {35.37} |')
+print(f'|yards: Show yards for {x} and {0.9}     |')
+print('#>----------------<Menu>------------------#')
 action = input('action->')
-if action == '+':
-    print(f'{x} + {y} + {z}= (x + y + z')
-elif action == '*':
-    print(f'{x} * {y} * {z}= {x * y * z}')
-elif action == '/':
-    print(f'{x}+{y}+{z}/{2}= {x+y+z/2}')
+if action == 'mile':
+    print(f'{x} * {0.6}= {x * 0.6}')
+elif action == 'inches':
+    print(f'{x} * {35.37}= {x * 35.37}')
+elif action == 'yards':
+    print(f'{x} * {0.9}= {x*0.9}')
