@@ -1,11 +1,7 @@
-time= float(input("time->"))
-name= int(input("name->"))
-if time == '8:00':
-    print("Доброго ранку {name} зараз {time}")
-else: time == '12:00'
-print("Доброго дня {name} зараз {time}")
-elif:  time == '18:00'
-print("Доброго вечора {name} зараз {time} ")
-elif: time == '00:00'
-print("Доброї ночі {name} зараз {time}")
-elif: time == '1:00'
+try:
+    for i in range(1, 4):
+        for j in range(1, 4):
+            print('+', end=" ")
+        print()
+except Exception as ex:
+    print(f'Error [{ex.__class__.__name}]:{ex}')
