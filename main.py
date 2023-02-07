@@ -1,7 +1,7 @@
 a = int(input('Введіть продажі 1 менеджера: '))
 b = int(input('Введіть продажі 2 менеджера: '))
 c = int(input('Введіть продажі 3 менеджера: '))
-oklad = 200
+premium = 200
 if a>1000:
     zp1: float = oklad+a*0.08
 else:
