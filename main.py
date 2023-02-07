@@ -1,19 +1,6 @@
-numebr = int(input('number->'))
-
-if 1 <= numebr <= 100:
-
-    if not numebr%3 and not i%5:
-
-        print("Fizz Buzz")
-
-    elif not numebr%3:
-
-        print("Fizz")
-
-    elif not numebr%5:
-
-        print("Buzz")
-
-    else:
-
-        print(numebr)
+num = int(input("Введіть число: "))
+st = int(input("Введіть степінь от 1 до 7:"))
+if st > 7 or st < 0:
+   print("Степінь повинен бути от 1 до 7")
+else:
+   print(num**st)
