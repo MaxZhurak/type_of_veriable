@@ -1,6 +1,12 @@
-num = int(input("Введіть число: "))
-st = int(input("Введіть степінь от 1 до 7:"))
-if st > 7 or st < 0:
-   print("Степінь повинен бути от 1 до 7")
+operators = {
+   'Vodafone': 0.66,
+
+   'Kyivstar': 0.45,
+
+   'Lifecell': 0.76,
+}
+int(input("Введіть вартість розмови: ")), input("Виберіть оператор: "), input("Виберіть другий оператор: ")
+if operators1 == operators2:
+   print("Вартість розмови: ", cost)
 else:
-   print(num**st)
+   print("Вартість розмови: ", cost * operators[operator1] + cost * operators[operator2])
