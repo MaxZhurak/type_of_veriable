@@ -1,12 +1,19 @@
-try:
-    number = int(input('number->'))
-    for i in range(1, 10+1):
-        for j in range(1, 10+1):
-                print(f'{i} * {j} = {i*j}', end="\t\t")
-        print()
-        for j in range(1, 158):
-                print(f'.', end="")
-        print()
-    print()
-except Exception as ex:
-    print(f'Error [{ex.__class__.__name}]:{ex}')
+numebr = int(input('number->'))
+
+if 1 <= numebr <= 100:
+
+    if not numebr%3 and not i%5:
+
+        print("Fizz Buzz")
+
+    elif not numebr%3:
+
+        print("Fizz")
+
+    elif not numebr%5:
+
+        print("Buzz")
+
+    else:
+
+        print(numebr)
